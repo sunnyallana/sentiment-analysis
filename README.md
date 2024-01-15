@@ -17,32 +17,33 @@ pip install Flask requests
 ## Getting Started
 
 ### 1. Clone the Repository
-    ```bash
-    git clone https://github.com/sunnyallana/sentimentAnalysis.git
-    cd sentimentAnalysis
-    ```
+```bash
+git clone https://github.com/sunnyallana/sentimentAnalysis.git
+cd sentimentAnalysis
+```
 
 ### 2. Set up a Virtual Environment (Optional but Recommended)
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
 
 ### 3. Install Required Packages
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 ### 4. Run the Flask Application
-    ```bash
-    python server.py
-    ```
+```bash
+python server.py
+```
+
 #### The application will be accessible at http://127.0.0.1:5000/ in your web browser.
 
 ## Usage
-    1. Open your web browser and navigate to [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
-    2. Enter the text you want to analyze in the input field and submit the form.
-    3. View the sentiment analysis result, which includes the sentiment label and score.
+1. Open your web browser and navigate to [http://127.0.0.1:5000/](http://127.0.0.1:5000/).
+2. Enter the text you want to analyze in the input field and submit the form.
+3. View the sentiment analysis result, which includes the sentiment label and score.
 
 ## Files and Structure
 - **server.py:** Flask application file containing the server logic.
@@ -51,13 +52,13 @@ pip install Flask requests
 - **index.html:** HTML template for the web application.
 
 ## Watson NLP Configuration
-    The sentiment analysis is performed using the Watson NLP service with BERT models. Make sure you have the appropriate credentials and endpoint configured in `sentiment_analysis.py`. Update the `url` and `header` variables in the file accordingly.
+The sentiment analysis is performed using the Watson NLP service with BERT models. Make sure you have the appropriate credentials and endpoint configured in `sentiment_analysis.py`. Update the `url` and `header` variables in the file accordingly.
 
 ## Unit Tests
 To run the unit tests, use the following command:
-    ```bash
-    python -m unittest discover tests
-    ```
+```bash
+python -m unittest discover tests
+```
 
 ## Contributing
 Feel free to contribute to the project by submitting issues or pull requests. Follow the guidelines outlined in CONTRIBUTING.md.
