@@ -23,8 +23,8 @@ pip install Flask requests
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/sunnyallana/sentimentAnalysis.git
-cd sentimentAnalysis
+git clone https://github.com/sunnyallana/sentiment-analysis.git
+cd sentiment-analysis
 ```
 
 ### 2. Set up a Virtual Environment (Optional but Recommended)

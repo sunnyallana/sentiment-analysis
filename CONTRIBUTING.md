@@ -4,15 +4,15 @@ Welcome! We appreciate your interest in contributing to this project. Whether yo
 
 ## Bug Reports and Feature Requests
 
-If you encounter a bug or have a feature request, please [open an issue](https://github.com/sunnyallana/sentimentAnalysis/issues) on the GitHub repository. Provide as much detail as possible, including steps to reproduce the bug or a clear description of the requested feature.
+If you encounter a bug or have a feature request, please [open an issue](https://github.com/sunnyallana/sentiment-analysis/issues) on the GitHub repository. Provide as much detail as possible, including steps to reproduce the bug or a clear description of the requested feature.
 
 ## Contributing Code
 
 1. Fork the repository on GitHub.
 2. Clone your forked repository locally:
     ```bash
-    git clone https://github.com/sunnyallana/sentimentAnalysis.git
-    cd sentimentAnalysis
+    git clone https://github.com/sunnyallana/sentiment-analysis.git
+    cd sentiment-analysis
     ```
 3. Create a new branch for your changes:
     ```bash
