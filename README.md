@@ -1,5 +1,10 @@
 # Sentiment Analysis using Watson NLP (BERT) - Flask Application
 
+**Author: Sunny Allana**  
+**GitHub: [Sunny Allana](https://github.com/sunnyallana/)**  <br>
+**LinkedIn: [Sunny Allana](https://www.linkedin.com/in/sunnyallana/)** <br>
+**Instagram: [Sunny Allana](https://www.instagram.com/imsunnyallana/)** <br>
+
 ## Introduction
 This repository contains a simple Flask web application for sentiment analysis using the Watson Natural Language Processing (NLP) service with BERT models. The application allows users to input text, and it provides sentiment analysis results based on the provided text.
 
